@@ -1,9 +1,10 @@
 import { Fragment } from "react/jsx-runtime";
+import { DefaultLayouts } from "../config/layout/DefaultLayout";
 
 export function Planos(){
     return (
         <Fragment>
-            <h1>Planos</h1>
+          <DefaultLayouts></DefaultLayouts>
         </Fragment>
-    )
+      );
 }

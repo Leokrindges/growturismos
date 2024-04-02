@@ -3,6 +3,7 @@ import { Home } from "../../pages/Home";
 import { Planos } from "../../pages/Planos";
 import { QuemSomos } from "../../pages/QuemSomos";
 import { Servicos } from "../../pages/Servicos";
+import { Contato } from "../../pages/Contato";
 
 const router = createBrowserRouter([
   {
@@ -10,16 +11,20 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/",
+    path: "/planos",
     element: <Planos />,
   },
   {
-    path: "/",
+    path: "/quem-somos",
     element: <QuemSomos />,
   },
   {
-    path: "/",
+    path: "/servicos",
     element: <Servicos />,
+  },
+  {
+    path: "/contatos",
+    element: <Contato />,
   },
 ]);
 
