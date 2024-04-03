@@ -11,4 +11,8 @@ export const LinkStyled = styled.a<LinkProps>`
     font-size: ${(props) => props.fontSize ?? "0.7rem"};
     font-weight: 500;
     margin-right: 10px;
+
+    &:hover{
+      color: #fff;
+    }
   `;

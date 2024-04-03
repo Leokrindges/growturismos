@@ -9,4 +9,9 @@ interface ColumnProps {
 export const Column = styled.div<ColumnProps>`
   width: ${(props) => props.widht ?? "auto"};
   height: ${(props) => props.heigth ?? "auto"};
+
+  span{
+    font-size: 0.7rem;
+    color: #fff;
+  }
 `;

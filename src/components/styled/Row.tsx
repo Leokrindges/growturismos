@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 interface RowProps {
-  alignItens?: "Center" | "Start" | "End";
-  justifyContent?: "Center" | "Start" | "End" | "space-between";
+  alignItens?: "center" | "start" | "End";
+  justifyContent?: "center" | "start" | "snd" | "space-between";
   heigth?: string;
   flexWrap?: "wrap";
   flexDirection?: "column" | "row" | "row-reverse" | "column-reverse";

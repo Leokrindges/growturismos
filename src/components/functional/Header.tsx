@@ -9,7 +9,7 @@ export function Header() {
   return (
     <HeaderStyled>
       <Container heigth="100%">
-        <Row alignItens="Center" heigth="100%">
+        <Row alignItens="center" heigth="100%">
           <Column widht="59%">
             <LinkStyled fontSize="1.3rem" color="#fff" as={Link} to="/">
               GrowTravel
