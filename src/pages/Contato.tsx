@@ -1,10 +1,13 @@
 import { Fragment } from "react/jsx-runtime";
 import { DefaultLayouts } from "../config/layout/DefaultLayout";
+import { MainContato } from "../components/functional/MainContato";
 
 export function Contato() {
   return (
     <Fragment>
-      <DefaultLayouts></DefaultLayouts>
-    </Fragment>
+    <DefaultLayouts>
+      <MainContato></MainContato>
+    </DefaultLayouts>
+  </Fragment>
   );
 }

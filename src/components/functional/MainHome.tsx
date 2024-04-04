@@ -6,7 +6,7 @@ import Image from "../../assets/home.svg";
 import { ParagraphStyled } from "../styled/Paragraph";
 import { ButtonStyled } from "../styled/ButtonStyled";
 
-export function Main() {
+export function MainHome() {
   return (
     <MainStyled>
       <Container heigth="100%">
