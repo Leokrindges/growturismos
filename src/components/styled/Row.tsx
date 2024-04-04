@@ -3,7 +3,7 @@ import styled from "styled-components";
 interface RowProps {
   alignItens?: "center" | "start" | "End";
   justifyContent?: "center" | "start" | "snd" | "space-between";
-  heigth?: string;
+  height?: string;
   flexWrap?: "wrap";
   flexDirection?: "column" | "row" | "row-reverse" | "column-reverse";
 }
@@ -16,5 +16,5 @@ export const Row = styled.div<RowProps>`
   gap: 16px;
   align-items: ${(props) => props.alignItens ?? "strech"};
   justify-content: ${(props) => props.justifyContent ?? "start"};
-  height: ${(props) => props.heigth ?? "auto"};
+  height: ${(props) => props.height ?? "auto"};
 `;

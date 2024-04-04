@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <FooterStyled>
       <Container heigth="100%">
-        <Row alignItens="center" heigth="100%">
+        <Row alignItens="center" height="100%">
           <Column widht="88%">
             <span>©2024 Full Stack Growdev</span>
           </Column>
