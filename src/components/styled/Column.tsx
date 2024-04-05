@@ -17,7 +17,7 @@ export const Column = styled.div<ColumnProps>`
   align-items: ${(props)=> props.alignItens};
   flex-direction: ${(props) => props.flexDirection ?? "row"};
   justify-content: ${(props) => props.justifyContent};
-  gap: 15px;
+  gap: 10px;
 
   span {
     font-size: 0.7rem;
@@ -26,8 +26,7 @@ export const Column = styled.div<ColumnProps>`
 
   h1 {
     color: #122a57;
-    font-weight: 560;
-    font-size: 2.5rem;
+    font-weight: 530;
   }
 
   img {
