@@ -9,4 +9,10 @@ export const ButtonCardStyled = styled(ButtonStyled)`
   width: 5.5rem;
   font-size: 0.5rem;
   font-weight: 600;
+
+  &:hover{
+    background-color: #354d7a;
+    color: #fff;
+    border: #354d7a;
+  }
 `;
