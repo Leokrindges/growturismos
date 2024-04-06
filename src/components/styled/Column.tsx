@@ -17,6 +17,7 @@ export const Column = styled.div<ColumnProps>`
   align-items: ${(props)=> props.alignItens};
   flex-direction: ${(props) => props.flexDirection ?? "row"};
   justify-content: ${(props) => props.justifyContent};
+  margin-right: ${(props) => props.marginRight};
   gap: 10px;
 
   span {

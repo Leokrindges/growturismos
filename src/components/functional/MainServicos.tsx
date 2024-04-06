@@ -6,6 +6,8 @@ import { Card } from "./Card";
 import ImageHospedagem from "../../assets/hotel.svg";
 import ImageRoteiro from "../../assets/roteiro.svg";
 import ImagePacotes from "../../assets/viagens.svg";
+import { ButtonCardStyled } from "../styled/ButtonCardStyled";
+import { TitleStyled } from "../styled/TitleStyled";
 
 export function MainServicos() {
   return (
@@ -20,7 +22,8 @@ export function MainServicos() {
           >
             <Card>
               <img src={ImageHospedagem} alt="" />
-              <h2>Hospedagem</h2>
+              <TitleStyled>Hospedagem</TitleStyled>
+              <ButtonCardStyled>Saiba mais!</ButtonCardStyled>
             </Card>
           </Column>
           <Column
@@ -31,7 +34,8 @@ export function MainServicos() {
           >
             <Card>
               <img src={ImageRoteiro} alt="" />
-              <h2>Roteiros</h2>
+              <TitleStyled>Roteiros</TitleStyled>
+              <ButtonCardStyled>Saiba mais!</ButtonCardStyled>
             </Card>
           </Column>
           <Column
@@ -42,7 +46,8 @@ export function MainServicos() {
           >
             <Card>
               <img src={ImagePacotes} alt="" />
-              <h2>Pacotes</h2>
+              <TitleStyled>Pacotes</TitleStyled>
+              <ButtonCardStyled>Saiba mais!</ButtonCardStyled>
             </Card>
           </Column>
         </Row>

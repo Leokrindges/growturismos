@@ -5,6 +5,9 @@ interface CardStyled {
   alignItens?: "start" | "center" | "end";
   flexDirection?: "column" | "column-reverse" | "row" | "row-reverse";
   justifyContent?: "start" | "center" | "end";
+  borderColor?: string;
+  borderSize?: string;
+  borderLinha?: "solid" | "none";
 }
 
 export const CardStyled = styled.div<CardStyled>`
@@ -15,14 +18,8 @@ export const CardStyled = styled.div<CardStyled>`
   flex-direction: ${(props) => props.flexDirection ?? "row"};
   justify-content: ${(props) => props.justifyContent};
   gap: 10px;
-
-  h2 {
-    font-size: 0.8rem;
-    color: #122a57;
-    font-weight: 600;
-  }
-
-  img{
+  border: ${(props) => props.borderLinha} ${(props) => props.borderSize}  ${(props) => props.borderColor};
+  img {
     width: 65%;
   }
 `;
